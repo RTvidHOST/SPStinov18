@@ -8,7 +8,6 @@ public class Account implements AcInt{
         System.out.println("Пополнение баланса на " + add + " руб");
     }
 
-    //Cgbcfybt
     public void withdrawal(long cost) throws InterruptedException {
         if(balance>=cost) {
             balance -= cost;
